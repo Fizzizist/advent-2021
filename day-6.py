@@ -1,7 +1,8 @@
 import sys
 from tqdm import tqdm
 
-
+# Works for both part1 and part2. Takes in number of generations from second
+#  command line argument.
 def main():
     fish_ages = [0,0,0,0,0,0,0,0,0]
     with open(sys.argv[1]) as f:
